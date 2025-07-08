@@ -1,0 +1,43 @@
+{
+    "database.connections": {
+        "1751372164832": {
+            "key": "1751372164832",
+            "host": "127.0.0.1",
+            "port": "3306",
+            "user": "root",
+            "password": "",
+            "timezone": "+00:00",
+            "useSSL": false,
+            "isCluster": false,
+            "clientCertPath": null,
+            "clientKeyPath": null,
+            "ssh": {
+                "host": "",
+                "privateKeyPath": "C:\\Users\\evgeniy.tikhonenkov\\.ssh\\id_rsa",
+                "port": 22,
+                "username": "root",
+                "type": "password",
+                "connectTimeout": 10000,
+                "algorithms": {
+                    "cipher": []
+                }
+            },
+            "usingSSH": false,
+            "esAuth": "none",
+            "encoding": "utf8",
+            "showHidden": false,
+            "connectionKey": "database.connections",
+            "global": false,
+            "dbType": "SQLite",
+            "connectionUrl": "",
+            "encrypt": true,
+            "dbPath": "c:\\Leo\\projects\\ai-business-mentor\\api\\database.db",
+            "authType": "default",
+            "disable": false,
+            "includeDatabases": null,
+            "database": null,
+            "name": "111",
+            "tooltip": "Host: 127.0.0.1, Port: 3306"
+        }
+    }
+}

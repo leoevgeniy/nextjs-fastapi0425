@@ -1,0 +1,7 @@
+{
+    "rules": {
+      "no-html-link-for-pages": {
+        "pagesDir": "C:/Leo/projects/learning/fastapi_nexts/nextjs-fastapi/src/app"
+      }
+    }
+  }
