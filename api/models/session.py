@@ -11,6 +11,7 @@ class SessionInfo(Base):
     name = Column(String, nullable=True)
     created_at = Column(DateTime, default=datetime.now)
     updated_at = Column(DateTime, default=datetime.now)
+    is_guest = Column(Boolean, default=False)  # Add this field
     
 class MessageInfo(Base):
     __tablename__ = "message"
@@ -19,3 +20,4 @@ class MessageInfo(Base):
     role = Column(String, nullable=True)
     content = Column(Text, nullable=True)
     created_at = Column(DateTime, default=datetime.now)
+    is_guest = Column(Boolean, default=False)  # Add this field

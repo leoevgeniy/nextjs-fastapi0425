@@ -1,6 +1,7 @@
 import datetime
 from typing import Optional, List, Union
 from pydantic import BaseModel, EmailStr
+from sqlalchemy import Boolean, Column
 class Token(BaseModel):
     access_token: str
     token_type: str
@@ -121,6 +122,7 @@ class SessionInfoResponse(BaseModel):
     name: str
     created_at: datetime.datetime
     last_activity: Optional[datetime.datetime] = None  # Добавляем поле для последней активности
+    
 
     class Config:
         from_attributes = True  # Ранее known as orm_mode
